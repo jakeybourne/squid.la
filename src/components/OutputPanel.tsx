@@ -437,7 +437,7 @@ export default function OutputPanel() {
         
         <TabsContent value="sankey" className="space-y-4 mt-4">
           <div className="grid grid-cols-1 gap-4">
-            <div className="h-[500px]">
+            <div>
               {selectedRange && (
                 <SankeyChart
                   results={selectedRange.results}

@@ -38,7 +38,7 @@ export default function TaxAnalysisTable({ results, settings }: TaxAnalysisTable
             // Calculate corporate income tax and tax savings
             const rent = results.rent[i];
             const opex = (rent * 0.12) + results.IMI[i];
-            const interest = i > 0 ? results.debt[i-1] * (settings.loanRate / 100) : 0;
+            const interest = i > 0 ? results.debt[i-1] * (settings.loanRate.value / 100) : 0;
             
             // Calculate profit before tax without depreciation
             const profitBeforeTaxNoDep = rent - opex - interest - results.AIMI[i];

@@ -436,7 +436,9 @@ export default function SankeyChart({ results, settings }: SankeyChartProps) {
     );
 
     return { nodes: allNodes, links };
-  }, [selectedYear, results, settings]);
+  }, [selectedYear, results, settings, colors.dividend, colors.equity, colors.expenses, 
+      colors.income, colors.netCashflow, colors.principal, colors.purchase, 
+      colors.reserve, colors.taxes]);
 
   const incrementYear = () => {
     if (selectedYear < results.years) {
