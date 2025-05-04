@@ -1,0 +1,2 @@
+always try to use shadcn latest as the go to package for any components
+check for existing components before creating new ones

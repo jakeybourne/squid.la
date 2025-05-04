@@ -1,0 +1,399 @@
+[
+    {
+      "term": "Seed Equity",
+      "normalExplanation": "The initial capital you inject in year 0 before acquiring any properties.",
+      "simplifiedExplanation": "Your starting pot of money.",
+      "category": "general"
+    },
+    {
+      "term": "Annual Injection",
+      "normalExplanation": "Extra capital you add to the investment each year for a set period.",
+      "simplifiedExplanation": "The yearly top-up you kick in.",
+      "category": "general"
+    },
+    {
+      "term": "Injection Years",
+      "normalExplanation": "How many years you will keep adding the annual injection.",
+      "simplifiedExplanation": "For how long you’ll keep topping up.",
+      "category": "general"
+    },
+    {
+      "term": "Retirement Year",
+      "normalExplanation": "The year you stop active buying and start living off the portfolio.",
+      "simplifiedExplanation": "When you switch from building to enjoying income.",
+      "category": "general"
+    },
+    {
+      "term": "Forecast Period",
+      "normalExplanation": "Extra years the model keeps projecting after the retirement year.",
+      "simplifiedExplanation": "How far into the future we keep the crystal-ball on.",
+      "category": "general"
+    },
+    {
+      "term": "Cash Reserve",
+      "normalExplanation": "Liquid funds held as a safety buffer against surprises or vacancies.",
+      "simplifiedExplanation": "Rainy-day money sitting in the bank.",
+      "category": "general"
+    },
+    {
+      "term": "Buffer Months",
+      "normalExplanation": "Number of months of loan payments you keep as mandatory reserve.",
+      "simplifiedExplanation": "How many months of mortgage you’ve got stashed just in case.",
+      "category": "general"
+    },
+    {
+      "term": "Underfunded Warning",
+      "normalExplanation": "Alert triggered when projected cash runs negative at any point.",
+      "simplifiedExplanation": "Red flag: you’ll run out of money.",
+      "category": "warning"
+    },
+    {
+      "term": "Unit Price",
+      "normalExplanation": "Purchase price of a single property at the time of acquisition.",
+      "simplifiedExplanation": "How much one apartment or house costs to buy.",
+      "category": "property"
+    },
+    {
+      "term": "Purchase Years",
+      "normalExplanation": "Specific calendar years when new properties are bought.",
+      "simplifiedExplanation": "Which years you plan to buy places.",
+      "category": "property"
+    },
+    {
+      "term": "Price Growth",
+      "normalExplanation": "Expected annual percentage appreciation of property values.",
+      "simplifiedExplanation": "How fast you think prices will go up each year.",
+      "category": "property"
+    },
+    {
+      "term": "Gross Yield",
+      "normalExplanation": "Annual rent collected as a percentage of property value before expenses.",
+      "simplifiedExplanation": "Rent money as a % of what the place is worth.",
+      "category": "property"
+    },
+    {
+      "term": "Rent Growth",
+      "normalExplanation": "Expected annual percentage increase in rent prices.",
+      "simplifiedExplanation": "How much more rent you can charge each year.",
+      "category": "property"
+    },
+    {
+      "term": "Operating Expenses (OpEx)",
+      "normalExplanation": "The percentage of rental income spent on property maintenance, management, and other non-mortgage costs.",
+      "simplifiedExplanation": "Money you spend to keep the property running.",
+      "category": "property"
+    },
+    {
+      "term": "OpEx Factor",
+      "normalExplanation": "Multiplier that converts rental income to expected operating expenses.",
+      "simplifiedExplanation": "The % we use to estimate yearly running costs.",
+      "category": "property"
+    },
+    {
+      "term": "Occupancy Rate",
+      "normalExplanation": "Percentage of time a rental unit is occupied by paying tenants.",
+      "simplifiedExplanation": "How often someone is actually renting your place.",
+      "category": "property"
+    },
+    {
+      "term": "Property Config",
+      "normalExplanation": "Overrides that let each property have its own unique settings.",
+      "simplifiedExplanation": "Custom tweaks for one specific building.",
+      "category": "property"
+    },
+    {
+      "term": "Property Portfolio",
+      "normalExplanation": "The complete collection of real-estate assets you own in the model.",
+      "simplifiedExplanation": "All your properties put together.",
+      "category": "property"
+    },
+    {
+      "term": "LTV (Loan-to-Value)",
+      "normalExplanation": "Loan balance divided by property value, shown as a percentage.",
+      "simplifiedExplanation": "How much of the property is still the bank’s.",
+      "category": "financial"
+    },
+    {
+      "term": "Loan Rate",
+      "normalExplanation": "Annual interest rate charged on property loans.",
+      "simplifiedExplanation": "Your mortgage interest %.",
+      "category": "financial"
+    },
+    {
+      "term": "Term Years",
+      "normalExplanation": "Length of the loan amortization period.",
+      "simplifiedExplanation": "How many years until the mortgage is paid off.",
+      "category": "financial"
+    },
+    {
+      "term": "Amortization",
+      "normalExplanation": "Process of paying down both principal and interest on a set schedule.",
+      "simplifiedExplanation": "Gradually shrinking the mortgage every month.",
+      "category": "financial"
+    },
+    {
+      "term": "Extra Prepayments",
+      "normalExplanation": "Optional additional payments to knock down loan principal faster.",
+      "simplifiedExplanation": "Extra lump sums you throw at the mortgage.",
+      "category": "financial"
+    },
+    {
+      "term": "Cash Flow",
+      "normalExplanation": "Net cash left after rent, expenses, taxes, and loan payments.",
+      "simplifiedExplanation": "Money in vs money out each year.",
+      "category": "financial"
+    },
+    {
+      "term": "Equity",
+      "normalExplanation": "Property value minus outstanding debt.",
+      "simplifiedExplanation": "How much of the place you really own.",
+      "category": "financial"
+    },
+    {
+      "term": "Net Worth",
+      "normalExplanation": "Total assets minus total liabilities across the portfolio.",
+      "simplifiedExplanation": "All you own minus all you owe.",
+      "category": "financial"
+    },
+    {
+      "term": "Leverage",
+      "normalExplanation": "Using borrowed money to amplify investment returns.",
+      "simplifiedExplanation": "Boosting buying power with the bank’s cash.",
+      "category": "financial"
+    },
+    {
+      "term": "Debt Service",
+      "normalExplanation": "Total of interest and principal payments due on loans for the period.",
+      "simplifiedExplanation": "Your yearly mortgage bill.",
+      "category": "financial"
+    },
+    {
+      "term": "High LTV Warning",
+      "normalExplanation": "Alert triggered when the LTV ratio exceeds a safe threshold.",
+      "simplifiedExplanation": "Heads-up: you’re over-leveraged.",
+      "category": "warning"
+    },
+    {
+      "term": "Payout Ratio",
+      "normalExplanation": "Share of after-tax profits distributed as dividends.",
+      "simplifiedExplanation": "What % of profit you pocket vs reinvest.",
+      "category": "financial"
+    },
+    {
+      "term": "Payout Schedule",
+      "normalExplanation": "Year-by-year plan of dividend percentages.",
+      "simplifiedExplanation": "Timeline of how big the dividend cheques will be.",
+      "category": "financial"
+    },
+    {
+      "term": "Return on Equity (ROE)",
+      "normalExplanation": "Annual profit divided by current equity, shown as a percentage.",
+      "simplifiedExplanation": "How hard each euro of equity is working.",
+      "category": "financial"
+    },
+    {
+      "term": "Cap Rate (Capitalization Rate)",
+      "normalExplanation": "Net operating income divided by property value.",
+      "simplifiedExplanation": "Quick-and-dirty yield of the property.",
+      "category": "financial"
+    },
+    {
+      "term": "IRR (Internal Rate of Return)",
+      "normalExplanation": "Annualized return that sets the net present value of all cash flows to zero.",
+      "simplifiedExplanation": "Your compounded average return accounting for time.",
+      "category": "financial"
+    },
+    {
+      "term": "Corporate Tax Rate",
+      "normalExplanation": "Percentage of company profits paid to the tax authority.",
+      "simplifiedExplanation": "How much the company pays the taxman.",
+      "category": "tax"
+    },
+    {
+      "term": "Dividend Withholding Tax",
+      "normalExplanation": "Tax deducted from dividends before they reach shareholders.",
+      "simplifiedExplanation": "Tax skimmed off your dividend cheque.",
+      "category": "tax"
+    },
+    {
+      "term": "IMI",
+      "normalExplanation": "Portuguese municipal property tax, ~0.3 %–0.45 % of tax value annually.",
+      "simplifiedExplanation": "Portugal’s yearly council tax on property.",
+      "category": "tax"
+    },
+    {
+      "term": "AIMI",
+      "normalExplanation": "Additional Portuguese tax on high-value property holdings.",
+      "simplifiedExplanation": "Extra Portuguese tax for big property portfolios.",
+      "category": "tax"
+    },
+    {
+      "term": "Building Depreciation",
+      "normalExplanation": "A tax deduction that accounts for the wear and tear of building structures over time, typically calculated as a percentage of the building value.",
+      "simplifiedExplanation": "Tax savings because buildings get older and less valuable over time.",
+      "category": "tax"
+    },
+    {
+      "term": "Tax-Efficient Structure",
+      "normalExplanation": "Legal setup designed to minimise tax within the law.",
+      "simplifiedExplanation": "Smart legal wrapper to cut your tax bill.",
+      "category": "tax"
+    },
+    {
+      "term": "After-Tax Income",
+      "normalExplanation": "Money left after all applicable taxes have been paid.",
+      "simplifiedExplanation": "What you actually keep after taxes.",
+      "category": "tax"
+    },
+    {
+      "term": "Tax Shock",
+      "normalExplanation": "Stress-test scenario modelling a sudden change in tax rules or rates.",
+      "simplifiedExplanation": "What-if taxes jump overnight.",
+      "category": "tax"
+    },
+    {
+      "term": "Stress Test",
+      "normalExplanation": "Simulation of portfolio performance under adverse conditions.",
+      "simplifiedExplanation": "See how your plan holds up when things go wrong.",
+      "category": "stress"
+    },
+    {
+      "term": "Shock Start Year",
+      "normalExplanation": "The first year an adverse scenario is applied in the model.",
+      "simplifiedExplanation": "When the bad stuff starts.",
+      "category": "stress"
+    },
+    {
+      "term": "Shock Duration",
+      "normalExplanation": "How many years the adverse condition lasts.",
+      "simplifiedExplanation": "How long the pain sticks around.",
+      "category": "stress"
+    },
+    {
+      "term": "Stagflation",
+      "normalExplanation": "Scenario with low economic growth and high inflation.",
+      "simplifiedExplanation": "Economy stuck but prices keep rising.",
+      "category": "stress"
+    },
+    {
+      "term": "Interest Rate Shock",
+      "normalExplanation": "Sudden, significant move in borrowing rates.",
+      "simplifiedExplanation": "Mortgages get expensive overnight.",
+      "category": "stress"
+    },
+    {
+      "term": "Property Value Fluctuation",
+      "normalExplanation": "Large swing in market prices of real estate.",
+      "simplifiedExplanation": "House prices jump or crash.",
+      "category": "stress"
+    },
+    {
+      "term": "Occupancy Drop",
+      "normalExplanation": "Extended period of lower tenant occupancy.",
+      "simplifiedExplanation": "More empty units than usual.",
+      "category": "stress"
+    },
+    {
+      "term": "Rate Spike",
+      "normalExplanation": "Sharp increase in interest rates, measured in basis points.",
+      "simplifiedExplanation": "Rate hike that slams your loan costs.",
+      "category": "stress"
+    },
+    {
+      "term": "Basis Points (BPS)",
+      "normalExplanation": "One-hundredth of a percent (0.01 %).",
+      "simplifiedExplanation": "Tiny unit: 100 bps = 1 %.",
+      "category": "stress"
+    },
+    {
+      "term": "AIMI Multiplier",
+      "normalExplanation": "Factor applied to boost AIMI tax in a stress scenario.",
+      "simplifiedExplanation": "Slider for how much worse AIMI gets.",
+      "category": "stress"
+    },
+    {
+      "term": "Company Structure",
+      "normalExplanation": "A corporate entity that holds and manages properties.",
+      "simplifiedExplanation": "Owning through a company.",
+      "category": "structure"
+    },
+    {
+      "term": "Personal Investment",
+      "normalExplanation": "Direct ownership of property in your own name.",
+      "simplifiedExplanation": "Owning the buildings yourself.",
+      "category": "structure"
+    },
+    {
+      "term": "SPV (Special Purpose Vehicle)",
+      "normalExplanation": "Separate legal entity created solely to own specific assets.",
+      "simplifiedExplanation": "Standalone company just for this property deal.",
+      "category": "structure"
+    },
+    {
+      "term": "NHR (Non-Habitual Resident)",
+      "normalExplanation": "Portuguese tax regime granting reduced taxes for newcomers for up to 10 years.",
+      "simplifiedExplanation": "Portugal’s 10-year tax break for new residents.",
+      "category": "portugal"
+    },
+    {
+      "term": "Golden Visa",
+      "normalExplanation": "Portuguese residency permit obtained through qualifying real-estate investment.",
+      "simplifiedExplanation": "Buy property, get Portuguese residency.",
+      "category": "portugal"
+    },
+    {
+      "term": "Portuguese LLC (Lda.)",
+      "normalExplanation": "“Sociedade por Quotas”, Portuguese limited-liability company.",
+      "simplifiedExplanation": "Local version of an LLC.",
+      "category": "portugal"
+    },
+    {
+      "term": "Scenario",
+      "normalExplanation": "A defined set of input assumptions for the model.",
+      "simplifiedExplanation": "One particular what-if setup.",
+      "category": "modeling"
+    },
+    {
+      "term": "Baseline Scenario",
+      "normalExplanation": "The default reference set of assumptions.",
+      "simplifiedExplanation": "The starting benchmark case.",
+      "category": "modeling"
+    },
+    {
+      "term": "Min Scenario (Pessimistic)",
+      "normalExplanation": "Version using minimum values for all range inputs.",
+      "simplifiedExplanation": "Worst-case settings.",
+      "category": "modeling"
+    },
+    {
+      "term": "Max Scenario (Optimistic)",
+      "normalExplanation": "Version using maximum values for all range inputs.",
+      "simplifiedExplanation": "Best-case settings.",
+      "category": "modeling"
+    },
+    {
+      "term": "Range Value",
+      "normalExplanation": "An input stored with min, max, and central numbers for stress testing.",
+      "simplifiedExplanation": "Input field with a low and high slider.",
+      "category": "modeling"
+    },
+    {
+      "term": "Scenario Comparison",
+      "normalExplanation": "Side-by-side analysis of multiple scenarios.",
+      "simplifiedExplanation": "Plotting two what-ifs against each other.",
+      "category": "modeling"
+    },
+    {
+      "term": "Model Result",
+      "normalExplanation": "The output arrays generated from one scenario run.",
+      "simplifiedExplanation": "The numbers the model spits out.",
+      "category": "modeling"
+    },
+    {
+      "term": "Key Performance Indicator (KPI)",
+      "normalExplanation": "Metric used to track progress toward strategic goals.",
+      "simplifiedExplanation": "Important score you care about.",
+      "category": "modeling"
+    }
+  ]
+  
